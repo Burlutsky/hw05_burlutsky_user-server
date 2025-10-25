@@ -2,7 +2,6 @@
 import {createServer} from "node:http";
 import {addUser, deleteUser, getAllUsers, getUserById, updateUser, User} from "./model/users.js";
 import {parsBody} from "./tools.js";
-import {emitter} from "./events/emitter.js";
 import {myLogger} from "./events/logger.js";
 
 
